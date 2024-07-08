@@ -20,8 +20,7 @@
 /* heading styles */
 .hero{
     min-height: 600px;
-    width: 1360px;
-    border: 2px solid red;
+    width: 1320px;
     background-image: url(../images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +38,7 @@
     text-align: center;
 }
 
-/* main body styles */
+/*offer section styles */
 .offer{
     display: flex;
     flex-direction: column;
@@ -61,4 +60,70 @@
 .offer-heading2{
     font-size: 48px;
     font-family: inter;
+}
+
+/* welcome-party section */
+.welcome-party-bg{
+    min-height: 600px;
+    width: 1320px;
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-blend-mode: color-dodge;
+}
+.welcome-party{
+    display: flex;
+    flex-direction: column;
+    text-align: top left;
+    color: white;
+    padding: 126px 126px;
+}
+.welcome-party-heading1{
+    font-family: merriweather;
+    font-size: 64px;
+    padding-bottom: 24px;
+}
+.welcome-party-text{
+    font-family: inter;
+    font-size: 18px;
+}
+.welcome-party-heading2{
+    font-family: inter;
+    font-size: 20;
+    padding: 48px 32px;
+}
+
+
+/* party-location */
+.party-location-bg{
+    min-height: 482px;
+    width: 1320px;
+    background-image: linear-gradient(to top,rgba(181, 132, 132, 0), rgb(236, 217, 217)  );
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+.party-location{
+    text-align: center;
+    padding-top: 100px;
+    font-family: inter;
+    font-size: 32px;
+    font-weight: 500;
+}
+.party-location-text4{
+    color: #FF0000;
+}
+.party-location-btn{
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    font-family: inter;
+    font-size: 20px;
+    padding: 16px 32px;
+    border-radius: 5px;
+    margin-top: 48px;
 }
