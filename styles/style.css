@@ -17,6 +17,7 @@
     color: white;
 }
 
+/* heading styles */
 .hero{
     min-height: 600px;
     width: 1360px;
@@ -36,4 +37,28 @@
     flex-direction: column;
     padding-top: 177px;
     text-align: center;
+}
+
+/* main body styles */
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+.offer-heading1{
+    color: #FF0000;
+    font-size: 88px;
+    font-family: inter;
+    padding-bottom: 24px;
+}
+.offer-text{
+    color: #FF0000;
+    font-size: 24px;
+    font-family: inter;
+    font-weight:500;
+}
+.offer-heading2{
+    font-size: 48px;
+    font-family: inter;
 }
