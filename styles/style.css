@@ -136,9 +136,6 @@
     max-width: 1320px;
     margin: 0 auto;
     margin-top: 120px;
-    /* gap: 70px; */
-    /* justify-content: space-between; */
-    /* flex-direction: row; */
 }
 .best-offer-new-heading1{
     font-family: inter;
@@ -207,7 +204,7 @@
     justify-content: space-between;
 }
 .holidays-sale-img1{
-    position: relative;
+    position: absolute;
     z-index: 1;
     height: 578px;
     width: 675px;
@@ -217,10 +214,40 @@
     width: 1320px;
     background-color: #FF0000;
     position: absolute;
-    top: 650px;
+    top: 650px; 
     border-radius: 10px;
 }
 .holidays-sale-img3{
     padding-top: 141px;
     padding-right: 41px;
 }
+
+/* best-gift-section */
+.best-gift{
+    height: 1163px;
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 550px;
+}
+.best-gift-heading1{
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.best-gift-heading2{
+    font-family: merriweather;
+    font-size: 48px;
+    font-weight: 800;
+}
+.best-gift-para{
+    font-family: inter;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+.best-gift-images{
+    padding-top: 48px;
+}
+
