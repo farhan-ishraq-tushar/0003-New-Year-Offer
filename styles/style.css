@@ -299,3 +299,34 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+/* footer styles */
+.footer{
+    background-color: rgba(7, 2, 17, 1);
+    height: 609px;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.footer-text{
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+.footer-adress{
+    display: flex;
+    justify-content:space-between;
+    padding: 120px 275px 90px 140px;
+}
+ .footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+ }
+ .copy-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 275px 90px 140px;
+ }
