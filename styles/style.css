@@ -106,6 +106,7 @@
     margin: 0 auto;
     margin-top: 120px;
     border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(218, 182, 182);
 }
 .party-location{
     text-align: center;
@@ -127,3 +128,44 @@
     border-radius: 5px;
     margin-top: 48px;
 }
+
+/* Best offer section */
+.best-offer{
+    display: flex;
+    height: 463px;
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 120px;
+    /* gap: 70px; */
+    /* justify-content: space-between; */
+    /* flex-direction: row; */
+}
+.best-offer-new-heading1{
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+.best-offer-new-heading2{
+    font-family: merriweather;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.best-offer-new-text{
+    font-family: inter;
+    font-size: 20px;
+}
+.best-offer-year-heading{
+    font-family: inter;
+    font-size: 48px;
+    color: #FF0000;
+}
+.best-offer-year-text{
+    font-family: inter;
+    font-size: 20px;
+}
+.best-offer-image{
+    padding-left: 70px;
+    padding-right: 118px;
+}
+
